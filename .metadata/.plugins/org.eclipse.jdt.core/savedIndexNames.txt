@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+/Users/paulinemakoma/CSIS2420/.metadata/.plugins/org.eclipse.jdt.core
+3864207360.index
+1025993381.index
+1924876916.index
+2466319694.index
+3640734137.index
+793103014.index
+2761597571.index
+1406209134.index
+3127708880.index
+2476707198.index
+4002030712.index
+2716360836.index

@@ -1,0 +1,63 @@
+/**
+ * 
+ */
+package sort;
+
+import java.util.Collections;
+import java.util.Random;
+
+/**
+ * @author paulinemakoma
+ *
+ */
+public class QuickSort {
+	
+	public static void main(String[] args) {
+
+		long startTime = System.nanoTime();
+		//doing stuff here
+		Integer[] numbersArr = randomIntegers(10,2);
+		long endTime = System.nanoTime();
+		long duration = (endTime - startTime); 
+		
+		selectionSort(numbersArr);
+		
+		
+		for(int i = 0; i < numbersArr.length-1; i++) {
+			System.out.println(numbersArr[i]);
+		}
+		
+		
+	}
+
+	public static int generateRandomDigits(int n) {
+		int m = (int) Math.pow(10, n-1);
+		return m + new Random().nextInt(9*m);
+	}
+	
+	private static Integer[] randomIntegers(int n, int numberOfDigits) {
+		Integer[] list = new Integer[n];
+		for(int i= 0; i< n; i++) {
+			list[i] =  generateRandomDigits(numberOfDigits);
+		}
+		return list;
+	}
+	
+	 public static void selectionSort(Integer[] numbersArr) {
+		    for (int out = 0; out < numbersArr.length - 1; out++) {
+		      int min = out;
+		      for (int in = out + 1; in < numbersArr.length; in++)
+		        if (numbersArr[in] < numbersArr[min])
+		          min = in;
+		      swap(numbersArr, out, min);
+		    }
+		  }
+
+		  private static void swap(Integer[] numbersArr, int one, int two) {
+		    int temp = numbersArr[one];
+		    numbersArr[one] = numbersArr[two];
+		    numbersArr[two] = temp;
+		  }
+	
+}
+

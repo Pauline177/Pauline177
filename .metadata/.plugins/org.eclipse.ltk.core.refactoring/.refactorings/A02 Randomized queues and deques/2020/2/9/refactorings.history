@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Subset.java&apos; to &apos;random&apos;&#x0A;- Original project: &apos;A02 Randomized queues and deques&apos;&#x0A;- Destination element: &apos;random&apos;&#x0A;- Original element: &apos;Subset.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" element1="/src&lt;{Subset.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1583013159650" target="src/random" units="1" version="1.0"/>
+</session>

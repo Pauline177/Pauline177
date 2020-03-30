@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;algs4.jar&apos; to &apos;Percolation/lib&apos;&#x0A;- Original project: &apos;2420_GETTINGSTARTED&apos;&#x0A;- Destination element: &apos;Percolation/lib&apos;&#x0A;- Original element: &apos;algs4.jar&apos;" description="Copy file" destination="=Percolation/lib" element1="lib/algs4.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1581172654958" units="0" version="1.0"/>
+</session>
